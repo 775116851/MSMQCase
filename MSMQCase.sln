@@ -1,0 +1,90 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSMQHelper", "MSMQHelper\MSMQHelper.csproj", "{1BA09322-C0F9-4D44-BAE4-BE2567A08C33}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3rdParty", "3rdParty", "{E129E737-F727-444C-BD11-607EC9276643}"
+	ProjectSection(SolutionItems) = preProject
+		3rdParty\Enyim.Caching.dll = 3rdParty\Enyim.Caching.dll
+		3rdParty\log4net.dll = 3rdParty\log4net.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormMSMQ", "WinFormMSMQ\WinFormMSMQ.csproj", "{573B07EE-D2A9-4E0A-828F-F102C50C2EDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleMSMQ", "ConsoleMSMQ\ConsoleMSMQ.csproj", "{0AE9FE24-2EED-4415-B242-5B5DFFB4A9A4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WCFMSMQ", "WCFMSMQ", "{EB37A9E0-ECFE-4B4B-848E-239F4C30727C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSMQServer", "MSMQServer\MSMQServer.csproj", "{92FF640D-11E4-44BA-BB00-E1064DBB84DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormTest", "WinFormTest\WinFormTest.csproj", "{37D277FB-6E91-4301-8B0C-BF6C4E2CC0E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebTest", "WebTest\WebTest.csproj", "{397B2DF4-1DEF-4E06-A608-90F36FA0DDAD}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://feng2014.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ConsoleMSMQ\\ConsoleMSMQ.csproj
+		SccProjectName1 = ConsoleMSMQ
+		SccLocalPath1 = ConsoleMSMQ
+		SccProjectUniqueName2 = MSMQHelper\\MSMQHelper.csproj
+		SccProjectName2 = MSMQHelper
+		SccLocalPath2 = MSMQHelper
+		SccProjectUniqueName3 = WinFormMSMQ\\WinFormMSMQ.csproj
+		SccProjectName3 = WinFormMSMQ
+		SccLocalPath3 = WinFormMSMQ
+		SccProjectUniqueName4 = MSMQServer\\MSMQServer.csproj
+		SccProjectTopLevelParentUniqueName4 = MSMQCase.sln
+		SccProjectName4 = MSMQServer
+		SccLocalPath4 = MSMQServer
+		SccProjectUniqueName5 = WinFormTest\\WinFormTest.csproj
+		SccProjectTopLevelParentUniqueName5 = MSMQCase.sln
+		SccProjectName5 = WinFormTest
+		SccLocalPath5 = WinFormTest
+		SccProjectUniqueName6 = WebTest\\WebTest.csproj
+		SccProjectTopLevelParentUniqueName6 = MSMQCase.sln
+		SccProjectName6 = WebTest
+		SccLocalPath6 = WebTest
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1BA09322-C0F9-4D44-BAE4-BE2567A08C33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BA09322-C0F9-4D44-BAE4-BE2567A08C33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BA09322-C0F9-4D44-BAE4-BE2567A08C33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BA09322-C0F9-4D44-BAE4-BE2567A08C33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{573B07EE-D2A9-4E0A-828F-F102C50C2EDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{573B07EE-D2A9-4E0A-828F-F102C50C2EDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{573B07EE-D2A9-4E0A-828F-F102C50C2EDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{573B07EE-D2A9-4E0A-828F-F102C50C2EDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AE9FE24-2EED-4415-B242-5B5DFFB4A9A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AE9FE24-2EED-4415-B242-5B5DFFB4A9A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AE9FE24-2EED-4415-B242-5B5DFFB4A9A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AE9FE24-2EED-4415-B242-5B5DFFB4A9A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92FF640D-11E4-44BA-BB00-E1064DBB84DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92FF640D-11E4-44BA-BB00-E1064DBB84DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92FF640D-11E4-44BA-BB00-E1064DBB84DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92FF640D-11E4-44BA-BB00-E1064DBB84DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37D277FB-6E91-4301-8B0C-BF6C4E2CC0E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37D277FB-6E91-4301-8B0C-BF6C4E2CC0E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37D277FB-6E91-4301-8B0C-BF6C4E2CC0E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37D277FB-6E91-4301-8B0C-BF6C4E2CC0E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{397B2DF4-1DEF-4E06-A608-90F36FA0DDAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{397B2DF4-1DEF-4E06-A608-90F36FA0DDAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{397B2DF4-1DEF-4E06-A608-90F36FA0DDAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{397B2DF4-1DEF-4E06-A608-90F36FA0DDAD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{92FF640D-11E4-44BA-BB00-E1064DBB84DC} = {EB37A9E0-ECFE-4B4B-848E-239F4C30727C}
+		{37D277FB-6E91-4301-8B0C-BF6C4E2CC0E8} = {EB37A9E0-ECFE-4B4B-848E-239F4C30727C}
+		{397B2DF4-1DEF-4E06-A608-90F36FA0DDAD} = {EB37A9E0-ECFE-4B4B-848E-239F4C30727C}
+	EndGlobalSection
+EndGlobal
